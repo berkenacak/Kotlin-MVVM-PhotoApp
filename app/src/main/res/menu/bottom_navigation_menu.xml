@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_nav_graph"
+        android:icon="@drawable/ic_baseline_photo_library_24"
+        android:title="@string/photos" />
+
+    <item
+        android:id="@+id/favorites_nav_graph"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="@string/favorites" />
+</menu>

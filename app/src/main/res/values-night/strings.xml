@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="photos">Fotoğraflar</string>
+    <string name="favorites">My Favorites</string>
+    <string name="photo_downloader">Photo Downloader</string>
+</resources>

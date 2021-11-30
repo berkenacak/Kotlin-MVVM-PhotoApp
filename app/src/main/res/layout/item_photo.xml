@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="BindItemPhoto">
+        <variable
+            name="data"
+            type="com.berke.internshipproject.model.ImageModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/photoImg"
+            android:scaleType="fitXY"
+            android:src="@drawable/pixabay"
+            imageUrl="@{data.webformatURL}"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</layout>
